@@ -1,8 +1,8 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { fetchProduct } from "../../../../lib/queries";
-import PortableTextComponent from "../../components/PortableText";
+import { fetchProduct } from "../../../lib/queries";
+import PortableTextComponent from "../components/PortableText";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { MdWhatsapp } from "react-icons/md";
