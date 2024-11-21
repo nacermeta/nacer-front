@@ -16,7 +16,7 @@ export default function ProductCard({ product, locale }) {
    ? product.name.slice(0, 50) + "..." 
    : product.name;
   return (
-    <Link href={`${locale}/PoductPage/${product.slug.current}`} className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+    <Link href={`${locale}/${product.slug.current}`} className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
       <div className="">
         <div className="w-full h-[220px] overflow-hidden mx-auto aspect-w-16 aspect-h-8">
           <Image
